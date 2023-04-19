@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TermsPageScript : MonoBehaviour
+public class BedRoomScript : MonoBehaviour
 {
-      public void NextPage() => SceneManager.LoadScene("Bedroom");
+    public void NextPage() => SceneManager.LoadScene("GameMap");
 }
 
