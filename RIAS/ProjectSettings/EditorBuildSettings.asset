@@ -23,4 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameMap.unity
     guid: 018dd122c12c89b4f8ce63fe1d516d7e
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/New Scene 1.unity
+    guid: 6216a27332de80c4fb89c7c68c5ddff2
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 35963cdee62d3f4449f16babb2516899, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 768275ea241f50f40b64a7b0486f8276, type: 2}
