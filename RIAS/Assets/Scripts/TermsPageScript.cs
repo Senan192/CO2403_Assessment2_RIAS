@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class TermsPageScript : MonoBehaviour
 {
-      public void NextPage() => SceneManager.LoadScene("BedroomScene");
+      public void NextPage() => SceneManager.LoadScene("Bedroom");
 }
 
