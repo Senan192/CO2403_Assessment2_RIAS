@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/New Scene 1.unity
     guid: 6216a27332de80c4fb89c7c68c5ddff2
+  - enabled: 1
+    path: Assets/Scenes/3 Bank Description.unity
+    guid: ff1ee9ffd849a594b9d487743ced82d5
+  - enabled: 1
+    path: Assets/Scenes/2 Food Description.unity
+    guid: adac7ea93f96193458462859c11f3088
+  - enabled: 1
+    path: Assets/Scenes/3 Food.unity
+    guid: 69bcbe10bf07cf3479ecb73a454d3a65
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 35963cdee62d3f4449f16babb2516899, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 64be1f11f11b5884a8a242ea8415f23b, type: 2}
