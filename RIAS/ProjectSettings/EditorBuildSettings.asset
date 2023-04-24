@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3 Food.unity
     guid: 69bcbe10bf07cf3479ecb73a454d3a65
+  - enabled: 1
+    path: Assets/Scenes/4 Lectures Description.unity
+    guid: b7b97bb7f75c9ae488925938fbbf7d1d
+  - enabled: 1
+    path: Assets/Scenes/4 Lectures.unity
+    guid: 4398325dc428f054dac198df3f76367b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 35963cdee62d3f4449f16babb2516899, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 64be1f11f11b5884a8a242ea8415f23b, type: 2}
