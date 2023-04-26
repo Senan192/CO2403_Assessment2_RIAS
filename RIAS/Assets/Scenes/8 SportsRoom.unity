@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -275,16 +275,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1595137959}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: set_tag
+      - m_Target: {fileID: 1595137964}
+        m_TargetAssemblyTypeName: NextPage, Assembly-CSharp
+        m_MethodName: ScreenToTransition
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SportsRoomAR
+          m_StringArgument: 8 SportsRoomAR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &298826568
@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 1595137962}
   - component: {fileID: 1595137961}
   - component: {fileID: 1595137960}
-  - component: {fileID: 1595137959}
+  - component: {fileID: 1595137964}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -647,18 +647,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1595137959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595137958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340d45eec12d83b4a87cae440135fa57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1595137960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,6 +731,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1595137964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595137958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463a5e79ff72717468cc4aba8d651197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1841152481
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 760}
+  m_AnchoredPosition: {x: 50, y: 821}
   m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1841152483
@@ -814,8 +814,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278650631
-  m_fontColor: {r: 0.028301895, g: 0.026539702, b: 0.026539702, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
