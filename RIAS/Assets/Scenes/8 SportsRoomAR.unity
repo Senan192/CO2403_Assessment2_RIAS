@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1005,7 +1005,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Sure! Give me minute I'll got get em.
+          m_StringArgument: Great! See you at practice!
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1235732998
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Security notes please...
+  m_Text: <<Fill in the form>>
 --- !u!222 &1329906189
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1388,10 +1388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hey Morning! It''s going great!
-
-    Just wanted to borrow some notes
-    from last week if thats okay with you?'
+  m_Text: "Hi!  \nJust wanted to know how i could join Basketball"
 --- !u!222 &1855353172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1493,7 +1490,8 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Yeah of course! Which notes do you need?
+          m_StringArgument: Yeah of course! You just have to fill in the form with
+            your details. Let me hand you one.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1861376835
